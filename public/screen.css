@@ -10,3 +10,44 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+.top-header {
+  display: flex;
+  flex-direction: column;
+  background-color: #F0D67C;
+}
+
+h1 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.p-top {
+  text-align: center;
+  margin-left: 25rem;
+  margin-right: 25rem;
+}
+
+section {
+  display: flex;
+  align-items: top;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  vertical-align: top;
+}
+
+article {
+  padding: .5rem;
+  flex-basis: 25%;
+}
+
+.large {
+  flex-basis: 50%;
+}
+
+.bottom {
+  background-color: #F0D67C;
+  margin: 0rem;
+  text-align: center;
+  padding: 2rem;
+}
